@@ -19,7 +19,7 @@ module.exports.run = async function ({ api, event }) {
 ╔═════════════════════ ✿
 ║ ✨ 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢 ✨
 ╠═════════════════════ ✿
-║ 👑 𝗡𝗮𝗺𝗲 : MERAJ RAHMAN SAAD 
+║ 👑 𝗡𝗮𝗺𝗲 : MERAJ RAHMAN
 ║ 🧸 𝗡𝗶𝗰𝗸 𝗡𝗮𝗺𝗲 : F2RIX
 ║ 🎂 𝗔𝗴𝗲 : 𝟭𝟴+
 ║ 💘 𝗥𝗲𝗹𝗮𝘁𝗶𝗼𝗻 : 𝗦𝗶𝗻𝗴𝗹𝗲
@@ -41,10 +41,10 @@ module.exports.run = async function ({ api, event }) {
 `;
 
   const images = [
-    "https://i.imgur.com/8WBso8x.png",
-    "https://i.imgur.com/0VZu5eY.png",
-    "https://i.imgur.com/bkixgPK.jpeg",
-    "https://i.imgur.com/z6G6L4c.jpeg"
+    "https://i.imgur.com/m5KimjR.jpg",
+    "https://i.imgur.com/OEco4Ud.jpg",
+    "https://i.imgur.com/OCpV86F.jpg",
+    "https://i.imgur.com/7Yg7K9D.jpg"
   ];
 
   const randomImg = images[Math.floor(Math.random() * images.length)];
