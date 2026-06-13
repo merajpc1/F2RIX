@@ -20,7 +20,7 @@ module.exports.run = async function({ api, args, Users, event}) {
     var arraytag = [];
         arraytag.push({id: mention, tag: name});
     var a = function (a) { api.sendMessage(a, event.threadID); }
-a("~বস শাহাদাৎ এর ভালোবাসা নাও প্রিয়~");
+a("~বস সাদ এর ভালোবাসা নাও প্রিয়~");
 setTimeout(() => {a({body: "তোমাকে দেখলে আমার এত ভালো লাগে কেন জান আমি কিছুই তো বুঝতে পারি না💚 । 🥰।" + " " + name, mentions: arraytag})}, 3000);
 setTimeout(() => {a({body: "‎টমেটো লাল কাঁচা মরিচ ঝাল তোমার বুকের মাঝে চুমু দেবো আমি চিরকাল জান🙈🥀🥰   😍.." + " " + name, mentions: arraytag})}, 5000);
 setTimeout(() => {a({body: "‎༉༎༉😽!!লাইন টা তুমার জন্য  ডুবেছি আমি তুমার প্রেমের অনন্ত মায়ায় 🙈 ༅༎•❤️🌸🐰" + " " + name, mentions: arraytag})}, 7000);
