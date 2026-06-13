@@ -1,9 +1,9 @@
 module.exports.config = {
-  name: "anemi",
+  name: "anime",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "Meraj",
-  description: "Random Anime Videos From Meraj API",
+  credits: "F2RIX",
+  description: "Random Anime Videos From F2RIX API",
   commandCategory: "video",
   usages: "anime",
   cooldowns: 5
@@ -25,7 +25,7 @@ module.exports.run = async function ({ api, event }) {
     const cacheDir = __dirname + "/cache";
     if (!fs.existsSync(cacheDir)) fs.mkdirSync(cacheDir);
 
-    const filePath = `${cacheDir}/anemi_${Date.now()}.mp4`;
+    const filePath = `${cacheDir}/anime_${Date.now()}.mp4`;
 
     const response = await axios({
       url: API,
@@ -40,7 +40,7 @@ module.exports.run = async function ({ api, event }) {
     writer.on("finish", () => {
       api.sendMessage(
         {
-          body: "🎬 F2RIX Anime Random Video",
+          body: "🎬 F2RIX ANIME RANDOM VIDEO",
           attachment: fs.createReadStream(filePath)
         },
         event.threadID,
@@ -57,7 +57,7 @@ module.exports.run = async function ({ api, event }) {
     });
 
   } catch (err) {
-    console.log("ANEMI ERROR:", err?.response?.data || err.message);
+    console.log("ANIME ERROR:", err?.response?.data || err.message);
     api.sendMessage("❌ API Problem... Try again later!", event.threadID, event.messageID);
   }
 };
