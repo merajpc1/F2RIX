@@ -2,7 +2,7 @@ module.exports.config = {
  name: "rules",
  version: "1.0.0",
  hasPermssion: 0,
- credits: "MERAJ RAHMAN SAAD",
+ credits: "MERAJ",
  description: "Send group rules",
  commandCategory: "information",
  usages: "rules2",
@@ -29,7 +29,7 @@ module.exports.run = async ({ api, event }) => {
 ❖ কারও সমস্যা থাকলে সরাসরি 𝙰𝙳𝙼𝙸𝙽𝚂 দের ইনবক্স করুন 💌
 ❖ রুলস ভাঙলে আগে ওয়ার্নিং, পরে অ্যাকশন 😈
 
-𝙱𝙾𝚃 𝙰𝙳𝙼𝙸𝙽: SHAHADAT SAHU
+𝙱𝙾𝚃 𝙰𝙳𝙼𝙸𝙽: MERAJ/F2RIX
 𝙵𝙱 𝙻𝙸𝙽𝙺: https://www.facebook.com/61577276164302
 
 _সাথেই থাকুন 🌺─꯭─⃝‌‌F2RIX 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭🌸_
