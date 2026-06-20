@@ -69,7 +69,7 @@ module.exports = {
 
       const truth = truths[Math.floor(Math.random() * truths.length)];
 
-      const truthMsg = `╔═════════════════════╗\n║   🔥  T R U T H  🔥   ║\n╠═════════════════════╣\n║\n║  ❝ ${truth} ❞\n║\n╠═════════════════════╣\n║  ✍️  Powered by F2RIX  ║\n╚═════════════════════╝`;
+      const truthMsg = `╔═════════════════════╗\n║  🔥 T R U T H\n╠═════════════════════╣\n║\n║  ❝ ${truth} ❞\n║\n╠═════════════════════╣\n║  ✍️  Powered by F2RIX\n╚═════════════════════╝`;
 
       await api.sendMessage(truthMsg, event.threadID, event.messageID);
 
